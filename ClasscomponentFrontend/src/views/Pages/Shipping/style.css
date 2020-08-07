@@ -1,0 +1,172 @@
+.shipping-order img {
+    width: 100%;
+}
+.shipping-order .shipping-pup {
+    font-size: 20px;
+    color: blueviolet;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.shipping-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+    opacity: 80%;
+    color: #f2620f;
+}
+.shipping-summary {
+    background-color: darkgray;
+    border-radius: 5px;
+}
+.shipping-summary label{
+    width: 80%
+}
+.shipping-summary span{
+    width: 20%
+}
+.shipping-summary .summary-header {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    padding: 7px;
+}
+.summary-body {
+    padding: 10px
+}
+.summary-body .row {
+    margin: 0px;
+    line-height: 10px;
+}
+
+.summary-footer {
+    padding: 2px 10px
+}
+
+.summary-footer .row {
+    margin: 0px;
+}
+
+.summary-footer label{
+    font-weight: bold;
+    width: 50%;
+    opacity: 0.8;
+}
+.billing {
+    width: 100%;
+}
+.billing-header {
+    background-color: #f2620f;
+    padding: 10px;
+    color: white;
+}
+.billing-header .samebilling {
+    float: right;
+}
+.billing-body .shipping-item{
+    margin: 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.billing-body .shipping-left{
+    background-color: #dfa889;
+    color: white;
+    padding: 12px
+}
+
+.billing-body .shipping-left label{
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.billing-body .col-md-9{
+    background-color: #d3d3d3;
+    color: white;
+    padding: 5px
+}
+
+.billing-body .col-md-9 input{
+    padding: 5px;
+    width: 60%;
+    margin-left: 10px;
+}
+
+.billing-body .col-md-9 select {
+    padding: 5px;
+    width: 60%;
+    margin-left: 10px;
+}
+
+.term-service {
+    background-color: #d3d3d3;
+    padding: 10px
+}
+
+.term-service label{
+    font-size: 15px;
+}
+.term-service span{
+    font-weight: bold;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.place-order button{
+    margin: 30px 0px;
+}
+
+
+.shipping-arrival {
+    margin-top: 30px;
+    background-color: darkgray;
+    border-radius: 5px;
+}
+
+.shipping-arrival .summary-header {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    padding: 7px;
+}
+.shipping-arrival label{
+    width: 80%;
+    line-height: 15px;
+}
+.shipping-arrival span{
+    width: 15%
+}
+.input-group-append span{
+    width: 100% !important;
+}
+
+.paypal-checkout{
+    padding: 20px;
+    background-color: lightgrey;
+    margin: 0;
+}
+.tab-checkout{
+    display: none;
+}
+
+.tab-checkout-true{
+    display: block;
+}
+
+.caard-form button{
+    width: 25%;
+}
+.caard-form iframe .InputContainer .InputElement{
+    padding: 5px;
+    width: 60%;
+    margin-left: 10px;
+    background-color: red;
+}
+
+.empty-error {
+    border-color: red;
+}
+input:focus {
+    outline-offset: 5px !important
+}

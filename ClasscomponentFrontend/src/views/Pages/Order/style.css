@@ -1,0 +1,57 @@
+.doctorpup{
+    border: 1px solid gray;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.doctorpup .col-md-1 input{
+    
+    width: 100%;
+}
+
+.doctorpup .intro-title{
+    padding:0
+}
+
+.doctorpup .intro-title a{
+    font-size: 20px;
+    width: 90%
+}
+
+.doctorpup .intro-title label{
+    font-size: 20px;
+    color: blueviolet;
+    width: 10%
+}
+.intro-name{
+    font-style: italic
+}
+.intro-name p{
+    font-weight: bold
+}
+.intro-info{
+    line-height: 12px;
+}
+
+.intro-info p{
+    font-weight: bold;
+    font-style: italic;
+    padding: 0px;
+    margin: 0px;
+}
+
+.intro-info label{
+    font-style: italic;
+}
+.intro-img img{
+    width: 100% !important;
+    padding: 20px;
+}
+.vertical-center {
+    /* margin: 0; */
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }

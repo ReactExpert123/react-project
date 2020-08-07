@@ -1,0 +1,33 @@
+.nav-item a{
+    color: white !important;
+    font-size: 15px;
+}
+.navbar
+{
+    padding: 0%
+}
+.bg-danger {
+    background-color: #f2620f !important;
+}
+.navbar-translate img{
+    width: 40%;
+    margin-left: 100px;
+}
+.navbar-light{
+    width: 80%;
+    margin: auto;
+}
+ul.navbar-nav{
+    width: inherit;
+    justify-content: flex-end;
+}
+.home-width ul li{
+    padding-right: 80px;
+}
+.navbar-transparent {
+    background-color: #f2620f
+}
+a:focus, a:hover {
+    text-decoration: none;
+    color: #333;
+}

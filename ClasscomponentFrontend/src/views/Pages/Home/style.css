@@ -1,0 +1,134 @@
+body{
+    background-color: #f2ebdf;
+   
+   
+}
+.home-width{
+    width: 1470px;
+    margin: auto
+}
+.landing-img img {
+    width: 100%;
+}
+.btn-outline-warning {
+    width: 100%;
+    border-radius: 20px;
+    border-color: gray;
+    color: gray;
+    padding: 15px;
+}
+.border-status{
+    /* margin-top: 30px; */
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.border-bottom-status {
+    /* border-bottom: 1px dotted gray; */
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.btn-outline-info {
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    border-color: gray;
+    color: gray
+}
+.card {
+    margin: 20px;
+}
+.card-part {
+    padding-top: 20px;
+    /* text-align: center; */
+    justify-content: center;
+
+}
+.card-part img{
+    width: 100%;
+}
+.card-part .content {
+    padding: 10px;
+}
+.card-part .header {
+    float: left;
+    color: #cf60ea;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-part .meta {
+    float: right;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.card-part .description {
+    clear: both;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.home-card{
+    width: 45%;
+    display: inline-block;
+}
+.home-card .card-header-title{
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0.8    ;
+}
+
+.home-card .card-content{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.home-card img{
+    min-height: 375px;
+    max-height: 375px;
+    cursor: pointer;
+}
+
+.puppy-price {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-display: swap;
+    font-family: fira sans,sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    margin: 0;
+    padding: 20px 10px 10px;
+    color: #fff;
+    font-size: 24px;
+    background: #f2620f;
+    margin-right: -10px;
+
+}
+.btn-secondary {
+    color: #23282c;
+    background-color: #c8ced300;
+    border-color: #c8ced300;
+}
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+    color: #23282c;
+    background-color: #acb5bc00;
+    border-color: #a5aeb700;
+}
+
+.select_option{
+    text-align-last: center;
+    background-color: #f2ebdf;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.select_option option{
+    background-color: white;
+}

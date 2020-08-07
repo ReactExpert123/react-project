@@ -1,0 +1,19 @@
+.table tr td{
+    width: 8% !important;
+    vertical-align: inherit;
+    text-align: center
+}
+.table tr{
+    width: 8% !important;
+    vertical-align: inherit;
+    text-align: center
+}
+.table tr td img{
+    width: 100% !important;
+}
+.reveiew_button{
+    cursor: pointer;
+}
+.creat-btn {
+    float:right
+}

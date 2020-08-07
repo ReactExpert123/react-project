@@ -1,0 +1,73 @@
+.card-title {
+    margin-bottom : 0px !important;
+    padding-top : 20px;
+}
+.card-title label{
+    font-weight: bold;
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.card-title .btn {
+    padding: 0px 5px !important;
+}
+
+.card-title a{
+    
+    font-size: 10px;
+
+}
+
+.dashcard-header{
+    display: inline-flex;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.dashcard-button {
+    display: inline-flex;
+    float: right;
+    padding-right: 20px;
+}
+.dashcard-button a{
+    padding-left: 10px;
+    font-size: 15px;
+}
+.viewRow {
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.dashpupImage {
+    width : 30%;
+    display: flex;
+}
+.dashpupImage img{
+    /* max-width: 150px; */
+    width: 25%;
+    min-width: 100px;
+}
+.dashInfo { 
+    width: 70%;
+}
+
+.dashInfo p{ 
+    text-align: center;
+    font-size: 20px;
+}
+.dashInfo .state-view ul{ 
+   display: flex;
+   padding: 0px !important;
+}
+.dashInfo .state-view ul>li{ 
+    padding: 5px 10px;
+    /* border: 1px solid red; */
+    background-color: #5bd05b;
+    border-radius: 10px;
+    text-align: center;
+    list-style: none;
+    width: 33%;
+    margin-right: 2px;
+}
